@@ -1,0 +1,52 @@
+* { 
+	background-color: #e6faff;
+
+
+}
+
+
+h1 {
+	color: #00b8e6;
+    font-family: 'Delius Unicase', cursive;
+    text-align: center;
+}
+
+
+.goal {
+	background-color: #fbfbfb;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: #def8ff dashed ;
+}
+h3 {
+	font-family: 'Arima Madurai', cursive;
+	text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+
+}
+
+
+ul {
+	font-family: 'Arima Madurai', cursive;
+	text-align: center;
+	padding-bottom: 30px;
+}
+ 
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+  section {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+
+
